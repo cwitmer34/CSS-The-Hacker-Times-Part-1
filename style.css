@@ -19,6 +19,7 @@ body {
 
 ul {
     text-align: center;
+    padding: 0;
 }
 
 li {
@@ -47,16 +48,17 @@ li {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.935);
 }
 
 .article-title {
     padding-top: 1em;
     font-size: 2em;
+    margin-block-end: 0;
 }
 
 .author {
-    padding: -1em 0 0 0;
+    margin-block-start: .5em;
 }
 
 p {
@@ -66,7 +68,7 @@ p {
 .article-container {
     display: inline-block;
     background-color: white;
-    width: 45%;
+    width: 42.5%;
     overflow: auto;
     padding: 2em;
 }
