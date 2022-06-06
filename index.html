@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hacker Times</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <!-- NEWSPAPER CONTAINER -->
@@ -12,41 +13,50 @@
     <!-- header -->
     <header>
       <div class="date">JANUARY 1, 1970</div>
-      <h1>The Hacker Times</h1>
+      <h1 id="title">The Hacker Times</h1>
     </header>
     <!-- navigation -->
-    <nav>
+    <nav class="nav-container">
       <ul>
-        <li><a href="#">HTML & CSS</a></li>
+        <li id="htmlnav"><a href="#">HTML & CSS</a></li>
         <li><a href="#">UX & UI</a></li>
         <li><a href="#">JAVASCRIPT</a></li>
         <li><a href="#">EXPRESS</a></li>
         <li><a href="#">MONGODB</a></li>
         <li><a href="#">REACT</a></li>
         <li><a href="#">CYBERSECURITY</a></li>
-        <li><a href="#">PYTHON</a></li>
+        <li id="pythonnav"><a href="#">PYTHON</a></li>
       </ul>
     </nav>
     <!-- front page article -->
     <main>
-      <h2>Have You Tried Turning It On and Off Again?</h2>
-      <h5>By Maurice Moss</h5>
-      <img src="assets/front-page-article.png" alt="placeholder">
+      <h2 class="roboto-slab article-title author">Have You Tried Turning It On and Off Again?</h2>
+      <h3 style="color: red;" class="roboto-slab">By Maurice Moss</h3>
+      <img src="assets/front-page-article.png" alt="placeholder" width="100%">
       <p>
-        Cupcake ipsum dolor sit amet. Candy gummies jelly-o pie toffee cheesecake pastry cake. Soufflé sesame snaps tootsie roll jelly-o soufflé tart gummies. Dessert lollipop halvah brownie chocolate bar gingerbread. Lollipop chocolate bar dragée jelly-o cookie tiramisu icing. Dragée muffin marshmallow jelly beans jelly beans. Tootsie roll pie cheesecake. Brownie biscuit gingerbread cupcake sweet roll sweet jelly-o cookie pie. Lemon drops topping lemon drops jelly beans toffee. Tiramisu cotton candy pie toffee cake chocolate cake apple pie. Cupcake bear claw donut apple pie halvah sesame snaps macaroon tootsie roll
-        </p>
+        Cupcake ipsum dolor sit amet candy canes jelly beans apple pie carrot cake. Cheesecake marshmallow pastry liquorice soufflé oat cake. I love icing tart tiramisu cake I love powder lollipop. I love cotton candy powder fruitcake I love. Cupcake carrot cake liquorice pie dessert. Chocolate I love carrot cake icing danish halvah shortbread soufflé bonbon. Fruitcake pudding oat cake tootsie roll pastry danish caramels. Oat cake I love muffin wafer cheesecake I love cupcake toffee marzipan. Wafer pastry brownie marshmallow wafer. Lemon drops cake candy donut sugar plum I love I love ice cream gummi bears. Carrot cake icing I love lemon drops I love oat cake jelly caramels chocolate bar. Pastry danish cake cheesecake I love lollipop. I love I love marzipan topping soufflé.
+        <br><br>
+        Muffin apple pie wafer tiramisu dessert shortbread I love brownie. Apple pie sweet carrot cake gummies croissant danish sweet roll topping icing. Apple pie fruitcake wafer cupcake chocolate sugar plum cupcake oat cake sweet roll. Gummies I love cupcake chocolate topping. Caramels liquorice marzipan chocolate cake toffee tart I love marzipan. Candy soufflé topping jelly beans gummies wafer I love halvah toffee. Candy canes liquorice jelly beans sweet jelly halvah donut I love I love. Marzipan toffee halvah dessert donut jujubes chocolate I love. Sweet danish dessert marshmallow fruitcake biscuit sesame snaps chocolate. Dessert chocolate cake jelly beans icing caramels. Chocolate cake danish cookie icing carrot cake I love danish cheesecake. Cake biscuit sweet cake tootsie roll candy jelly sesame snaps.I love chupa chups croissant dessert lollipop sweet chocolate pastry halvah. Chupa chups tart pudding I love I love sugar plum. Sweet pudding chocolate cake jelly I love. Apple pie wafer macaroon cupcake marzipan croissant chupa chups I love liquorice. I love cupcake halvah topping gingerbread jelly-o cookie. Powder candy jelly beans lollipop tootsie roll. Jelly-o dessert jujubes pastry marshmallow. I love oat cake lemon drops I love icing. I love I love macaroon I love cupcake I love bear claw cake marshmallow. Marshmallow liquorice cake cookie muffin. I love sweet fruitcake tiramisu chocolate cake tart sweet roll wafer. Biscuit halvah bear claw I love marzipan oat cake bonbon shortbread. Caramels jelly beans pudding oat cake brownie I love toffee chocolate cake sweet.
+        <br><br>
+        Sesame snaps lollipop chocolate cake bonbon soufflé. Dragée topping soufflé cheesecake brownie bear claw fruitcake pastry shortbread. Croissant chocolate I love jujubes dessert chupa chups liquorice cookie marshmallow. Sweet roll lemon drops bear claw cake shortbread jelly beans soufflé pie. Cookie gummies pie I love I love. Marzipan caramels gummies sweet roll I love I love brownie. I love ice cream toffee gingerbread candy cookie. Cotton candy pastry tiramisu I love brownie gummies I love gummies sesame snaps. Marshmallow cotton candy ice cream I love topping sweet roll I love muffin oat cake. Toffee cookie candy fruitcake sesame snaps gingerbread. Sesame snaps marzipan sugar plum sugar plum brownie dessert tootsie roll lemon drops. Chocolate cake pudding macaroon chocolate chocolate cake wafer toffee. Biscuit gingerbread toffee cotton candy wafer I love pastry soufflé I love. Soufflé biscuit ice cream sesame snaps lollipop chocolate.
+        <br><br>
+        Wafer jelly beans tootsie roll jelly I love sesame snaps candy. Bear claw toffee I love danish gingerbread. Cheesecake donut cake cake liquorice marzipan. Jelly croissant croissant halvah topping shortbread bonbon chupa chups soufflé. Dessert lemon drops carrot cake lemon drops donut jujubes jelly-o I love brownie. Jelly biscuit icing cupcake marshmallow gingerbread pastry jelly beans icing. Lemon drops macaroon pudding pudding apple pie cotton candy icing icing tiramisu. Dragée shortbread croissant jujubes brownie ice cream candy gummies I love. I love shortbread muffin topping ice cream. Chocolate cake toffee tiramisu chocolate bar sugar plum I love danish caramels chocolate cake. Jujubes topping cotton candy powder bonbon soufflé jelly beans. Soufflé pastry soufflé pastry I love sesame snaps sugar plum lemon drops gummies.
+
+
+      </p>
     </main>
     <!-- more articles -->
+    <hr>
     <div class="more-articles">
-      <section>
-        <h4>Tabs vs. Spaces</h4>
-        <img src="assets/article-one.png" alt="placeholder">
-        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
+      <section class="article-container">
+        <h4 class="more-titles">Tabs vs. Spaces</h4>
+        <img src="assets/article-one.png" alt="placeholder" width="100%">
+        <p class="more-text">Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
       </section>
-      <section>
-        <h4>How Much Caffeine Is Too Much?</h4>
-        <img src="assets/article-two.png" alt="placeholder">
-        <p>Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
+      <section class="article-container">
+        <h4 class="more-titles">How Much Caffeine Is Too Much?</h4>
+        <img src="assets/article-two.png" alt="placeholder" width="100%">
+        <p class="more-text">Lemon drops tiramisu sesame snaps oat cake marshmallow sugar plum liquorice. Tootsie roll pastry cake gummi bears pastry toffee tootsie roll candy. Pastry sesame snaps wafer liquorice. Gummies macaroon tiramisu jelly beans soufflé brownie ...</p>
       </section>
     </div>
   </div>
